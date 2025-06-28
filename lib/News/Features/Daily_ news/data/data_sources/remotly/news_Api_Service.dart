@@ -6,7 +6,7 @@ import 'package:apps/News/core/Constants/Constants.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/http.dart';
 
-part 'news_api_service.g.dart';
+import 'news_Api_Service.dart';
  @RestApi(baseUrl: newsAPIBaseURL)
 abstract class NewsApiService {
   factory NewsApiService(Dio dio, {String baseUrl}) = _NewsApiService;
