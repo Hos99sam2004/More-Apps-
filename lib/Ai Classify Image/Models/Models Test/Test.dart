@@ -11,6 +11,7 @@ import 'package:tflite_flutter/tflite_flutter.dart';
 class FruitClassifierPage extends StatefulWidget {
   const FruitClassifierPage({super.key});
   @override
+  // ignore: library_private_types_in_public_api
   _FruitClassifierPageState createState() => _FruitClassifierPageState();
 }
 
